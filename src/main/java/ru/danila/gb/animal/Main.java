@@ -4,8 +4,12 @@ import java.lang.reflect.Field;
 import java.lang.reflect.InvocationTargetException;
 import java.lang.reflect.Method;
 import java.util.*;
-import java.util.stream.Collectors;
-import java.util.stream.Stream;
+
+/*
+Создайте абстрактный класс Animal c полями name и age
+Реализуйте наследников Dog и Cat со спецыфичными полями иметодами
+Создайте массив объектов Animal и выведети всю информацию о каждом объекте и вызовите метод makeSound если он есть
+ */
 
 public class Main {
     public static void main(String[] args) throws IllegalAccessException {
